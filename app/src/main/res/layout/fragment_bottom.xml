@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.egco428.fragment.BottomFragment"
+    android:background="@drawable/dice">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/topMessage"
+        android:text="Top"
+        android:textColor="#0b2aee"
+        android:textSize="25dp"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/bottomMessage"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Buttom"
+        android:textSize="25dp"
+        android:textColor="#45f011"
+        android:gravity="center" />
+
+</RelativeLayout>
